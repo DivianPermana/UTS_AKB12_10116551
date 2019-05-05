@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Blueish</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_daily_activity">Daily Activity</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_media">Media</string>
+    <string name="about">About :</string>
+    <string name="abot">Just ordinary people who likes programming and eating</string>
+    <string name="interest">Interest :</string>
+    <string name="hobi">Hobby : Jogging</string>
+    <string name="jogging">Jogging</string>
+    <string name="makes_rendang_pizza">Makes : Rendang, Pizza</string>
+    <string name="mikes_air_putih">Mikes : Air Putih</string>
+    <string name="interest_future_money">Interest : Future, Money</string>
+    <string name="cita_cita_kerja_di_perusahaan_besar">Cita-Cita : Kerja di perusahaan besar</string>
+    <string name="todo">TODO</string>
+
+</resources>

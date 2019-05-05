@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blacky"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/wallpaper"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen110"
+        android:layout_marginTop="@dimen/dimen180"
+        android:src="@drawable/profile"
+        android:contentDescription="@string/todo" />
+
+    <RelativeLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img2"
+        android:paddingLeft="@dimen/dimen25"
+        android:paddingTop="@dimen/dimen18"
+        android:paddingRight="@dimen/dimen25">
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/about"
+            android:textColor="@color/Cloud"
+            android:textSize="@dimen/font18" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="@dimen/dimen5"
+            android:gravity="center"
+            android:text="@string/abot"
+
+            android:textColor="@color/Cloud"
+            android:textSize="@dimen/font15" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt2"
+            android:layout_marginTop="@dimen/dimen5"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/interest"
+            android:textColor="@color/Cloud"
+            android:textSize="@dimen/font18" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt3"
+            android:layout_marginTop="@dimen/dimen5"
+            android:fontFamily="@font/montserrat"
+            android:paddingStart="@dimen/dimen18"
+            android:paddingEnd="@dimen/dimen18"
+            android:text="@string/hobi"
+            android:textColor="@color/Cloud"
+            android:textSize="@dimen/font15" />
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/makes_rendang_pizza"
+            android:textColor="@color/Cloud"
+            android:textSize="@dimen/font15"
+            android:paddingStart="@dimen/dimen18"
+            android:paddingEnd="@dimen/dimen18"
+            android:layout_below="@id/txt4"/>
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mikes_air_putih"
+            android:textColor="@color/Cloud"
+            android:textSize="@dimen/font15"
+            android:paddingLeft="@dimen/dimen18"
+            android:paddingRight="@dimen/dimen18"
+            android:layout_below="@id/txt5"/>
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/interest_future_money"
+            android:textColor="@color/Cloud"
+            android:textSize="@dimen/font15"
+            android:paddingStart="@dimen/dimen18"
+            android:paddingEnd="@dimen/dimen18"
+            android:layout_below="@id/txt6"/>
+
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cita_cita_kerja_di_perusahaan_besar"
+            android:textColor="@color/Cloud"
+            android:textSize="@dimen/font15"
+            android:paddingStart="@dimen/dimen18"
+            android:paddingEnd="@dimen/dimen18"
+            android:layout_below="@id/txt7"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

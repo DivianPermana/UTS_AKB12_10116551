@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Cloud"
+    android:orientation="vertical"
+    android:paddingLeft="">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen150"
+        android:background="@color/MidnightBlue"></LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="@dimen/dimen80"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/dimen150"
+        android:layout_height="@dimen/dimen150"
+        android:src="@drawable/profile"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtAbout"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingStart="@dimen/dimen24"
+        android:paddingEnd="@dimen/dimen24">
+        <ImageView
+            android:id="@+id/imgIg"
+            android:layout_width="@dimen/dimen64"
+            android:layout_height="@dimen/dimen64"
+            android:src="@drawable/instagram"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/imgFb"
+            android:layout_width="@dimen/dimen64"
+            android:layout_height="@dimen/dimen64"
+            android:src="@drawable/facebook"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/imgMap"
+            android:layout_width="@dimen/dimen64"
+            android:layout_height="@dimen/dimen64"
+            android:src="@drawable/maps"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="App v-1.0.0"
+        android:layout_marginBottom="@dimen/dimen40"/>
+
+
+
+</RelativeLayout>

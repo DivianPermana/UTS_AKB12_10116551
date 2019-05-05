@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="MidnightBlue">#2c3e50</color>
+    <color name="Pomegranate">#c0392b</color>
+    <color name="Cloud">#ecf0f1</color>
+    <color name="MazarineBlue">#273c75</color>
+    <color name="ForestBlue">#0a3d62</color>
+    <color name="Seabrook">#487eb0</color>
+    <color name="LynxWhite">#f5f6fa</color>
+    <color name="Chigong">#d63031</color>
+    <color name="Blacky">#212121</color>
+</resources>
