@@ -13,7 +13,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-
+//Divian Ajie Permana
+//10116551
+//AKB-12
+//5 Mei 2019
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
     @Override

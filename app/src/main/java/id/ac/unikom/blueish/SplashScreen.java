@@ -4,7 +4,10 @@ import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
+//Divian Ajie Permana
+//10116551
+//AKB-12
+//5 Mei 2019
 public class SplashScreen extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 3000;
 

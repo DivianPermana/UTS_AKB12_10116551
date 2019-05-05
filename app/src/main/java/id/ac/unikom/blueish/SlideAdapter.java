@@ -9,7 +9,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
+//Divian Ajie Permana
+//10116551
+//AKB-12
+//5 Mei 2019
 public class SlideAdapter extends PagerAdapter {
     Context context;
     LayoutInflater layoutInflater;

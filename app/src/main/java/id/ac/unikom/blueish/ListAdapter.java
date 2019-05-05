@@ -7,7 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
+//Divian Ajie Permana
+//10116551
+//AKB-12
+//5 Mei 2019
 public class ListAdapter extends RecyclerView.Adapter {
 
     @NonNull

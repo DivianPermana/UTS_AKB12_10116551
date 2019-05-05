@@ -8,6 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+//Divian Ajie Permana
+//10116551
+//AKB-12
+//5 Mei 2019
 public class DailyActivityFragment extends Fragment {
     @Nullable
     @Override

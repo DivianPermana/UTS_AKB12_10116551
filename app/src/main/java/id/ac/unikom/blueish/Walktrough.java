@@ -9,7 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-
+//Divian Ajie Permana
+//10116551
+//AKB-12
+//5 Mei 2019
 public class Walktrough extends AppCompatActivity {
 
     private ViewPager eVpSlide;
