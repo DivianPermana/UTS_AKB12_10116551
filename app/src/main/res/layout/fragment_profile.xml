@@ -1,57 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Cloud"
-    android:orientation="vertical"
-    android:paddingLeft="">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/dimen150"
-        android:background="@color/MidnightBlue"></LinearLayout>
+        android:background="@color/MidnightBlue" />
 
     <ImageView
-        android:layout_marginTop="@dimen/dimen80"
-        android:layout_centerHorizontal="true"
         android:id="@+id/imageView"
         android:layout_width="@dimen/dimen150"
         android:layout_height="@dimen/dimen150"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen80"
         android:src="@drawable/profile"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="99dp" />
 
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="@dimen/dimen10"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="@string/desc"
+        android:textColor="@color/Blacky"
+        android:textSize="@dimen/font22" />
+
     <LinearLayout
+        android:id="@+id/layPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt"
+        android:layout_marginTop="@dimen/dimen25"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dimen10"
+        android:paddingStart="@dimen/dimen30"
+        android:paddingEnd="@dimen/dimen30">
+
+        <ImageView
+            android:layout_width="@dimen/dimen50"
+            android:layout_height="@dimen/dimen50"
+            android:src="@drawable/phone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/dimen20"
+            android:paddingEnd="@dimen/dimen20"
+            android:text="@string/phone"
+            android:textSize="@dimen/font20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layPhone"
+        android:layout_marginTop="@dimen/dimen25"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/dimen30"
+        android:paddingEnd="@dimen/dimen30">
+
+        <ImageView
+            android:layout_width="@dimen/dimen50"
+            android:layout_height="@dimen/dimen50"
+            android:src="@drawable/mail" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/dimen20"
+            android:paddingEnd="@dimen/dimen20"
+            android:text="divian.ajie@gmail.com"
+            android:textSize="@dimen/font20" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layMedsos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/txtAbout"
+        android:layout_below="@id/layEmail"
         android:orientation="horizontal"
-        android:paddingBottom="20dp"
         android:paddingStart="@dimen/dimen24"
-        android:paddingEnd="@dimen/dimen24">
+        android:paddingEnd="@dimen/dimen24"
+        android:gravity="center">
+
         <ImageView
             android:id="@+id/imgIg"
             android:layout_width="@dimen/dimen64"
             android:layout_height="@dimen/dimen64"
-            android:src="@drawable/instagram"
             android:layout_weight="1"
-            />
+            android:src="@drawable/instagram"
+            android:contentDescription="@string/instagram" />
 
         <ImageView
             android:id="@+id/imgFb"
             android:layout_width="@dimen/dimen64"
             android:layout_height="@dimen/dimen64"
+            android:layout_weight="1"
             android:src="@drawable/facebook"
-            android:layout_weight="1"/>
+            android:contentDescription="@string/facebook" />
 
         <ImageView
             android:id="@+id/imgMap"
             android:layout_width="@dimen/dimen64"
             android:layout_height="@dimen/dimen64"
+            android:layout_weight="1"
             android:src="@drawable/maps"
-            android:layout_weight="1"/>
+            android:contentDescription="@string/maps" />
     </LinearLayout>
 
     <TextView
@@ -59,10 +128,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dimen40"
         android:gravity="center"
-        android:text="App v-1.0.0"
-        android:layout_marginBottom="@dimen/dimen40"/>
-
+        android:text="App v-1.0.0" />
 
 
 </RelativeLayout>

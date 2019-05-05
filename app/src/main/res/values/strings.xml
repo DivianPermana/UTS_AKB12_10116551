@@ -15,5 +15,16 @@
     <string name="interest_future_money">Interest : Future, Money</string>
     <string name="cita_cita_kerja_di_perusahaan_besar">Cita-Cita : Kerja di perusahaan besar</string>
     <string name="todo">TODO</string>
+    <string name="desc"><b>Easy Going Boy who like eating</b></string>
+    <string name="phone">082318338423</string>
+    <string name="welcome">Hi!\nWelcome To My Application</string>
+    <string name="_1">1</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">facebook</string>
+    <string name="maps">Maps</string>
+    <string name="image">Image</string>
+    <string name="todo">TODO</string>
 
 </resources>

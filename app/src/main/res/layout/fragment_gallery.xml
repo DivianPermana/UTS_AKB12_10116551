@@ -4,10 +4,10 @@
     android:layout_height="match_parent"
     android:background="@color/LynxWhite">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/listRecycleView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:text="@string/nav_gallery"
+       android:gravity="center"/>
 
 </LinearLayout>

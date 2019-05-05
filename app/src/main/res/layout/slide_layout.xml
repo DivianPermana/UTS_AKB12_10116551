@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/walkImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splashbg"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/walkDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/welcome"
+        android:textColor="@color/Cloud"
+        android:textSize="@dimen/font22"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/dimen250"/>
+    <TextView
+        android:id="@+id/walkPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"/>
+
+
+</RelativeLayout>
